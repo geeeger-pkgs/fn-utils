@@ -22,5 +22,10 @@
     "prepare": "npm run build"
   },
   "typings": "lib/index.d.ts",
-  "version": "0.0.1"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "version": "0.0.1",
+  "gitHead": "31cd327a7106fa0366f7fe9ce9a7e7414bf7830d"
 }
