@@ -2,27 +2,27 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "@types/jest": "^24.0.22",
-    "@types/node": "^12.12.7",
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
     "@typescript-eslint/eslint-plugin": "^2.6.1",
     "@typescript-eslint/parser": "^2.6.1",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.5.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-formatter-friendly": "^7.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "jest": "^24.9.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.0",
     "lerna": "^3.22.1",
-    "prettier": "^2.0.0",
-    "ts-jest": "^24.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.2.0",
     "typescript": "^3.7.2"
   },
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "test": "jest",
     "format": "prettier --write \"**/*.ts\"  \"!**/lib/**\"",
     "lint": "eslint \"packages/**/{src,__tests__}/**/*.ts\" -f eslint-formatter-friendly",
     "build": "lerna run build",
-    "create": "yo lerna-typescript:package",
-    "add": "lerna add"
+    "create": "yo lerna-typescript:package"
   },
   "dependencies": {}
 }

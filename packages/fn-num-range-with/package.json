@@ -1,0 +1,28 @@
+{
+  "author": "geeeger",
+  "description": "num range function with cache",
+  "homepage": "https://github.com/geeeger-pkgs/fn-utils#readme",
+  "bugs": {
+    "url": "https://github.com/geeeger-pkgs/fn-utils/issues",
+    "email": "lph1988520@sina.com"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "fn-utils"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "@geeeger/fn-num-range-with",
+  "private": false,
+  "scripts": {
+    "build": "tsc --pretty",
+    "prepare": "npm run build"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.0.0"
+}
