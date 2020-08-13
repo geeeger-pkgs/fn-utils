@@ -18,7 +18,9 @@
   "scripts": {
     "test": "jest",
     "format": "prettier --write \"**/*.ts\"  \"!**/lib/**\"",
-    "lint": "eslint \"packages/**/{src,__tests__}/**/*.ts\" -f eslint-formatter-friendly"
+    "lint": "eslint \"packages/**/{src,__tests__}/**/*.ts\" -f eslint-formatter-friendly",
+    "build": "lerna run build",
+    "create": "yo lerna-typescript:package"
   },
   "dependencies": {
     "lerna": "^3.20.2"
