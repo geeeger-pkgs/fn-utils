@@ -23,6 +23,10 @@
     "build": "tsc --pretty",
     "prepare": "npm run build"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "typings": "lib/index.d.ts",
   "version": "0.0.2"
 }
