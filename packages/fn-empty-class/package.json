@@ -1,6 +1,6 @@
 {
   "author": "geeeger",
-  "description": "empty class to do nothing",
+  "description": "empty class to do nothing, self-use",
   "homepage": "https://github.com/geeeger-pkgs/fn-utils#readme",
   "bugs": {
     "url": "https://github.com/geeeger-pkgs/fn-utils/issues",
