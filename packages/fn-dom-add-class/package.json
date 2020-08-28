@@ -7,7 +7,7 @@
     "email": "lph1988520@sina.com"
   },
   "devDependencies": {
-    "typescript": "^3.7.2"
+    "typescript": "^4.0.2"
   },
   "files": [
     "lib"
