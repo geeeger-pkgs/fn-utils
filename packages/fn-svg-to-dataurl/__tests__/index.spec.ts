@@ -12,4 +12,9 @@ describe('@geeeger/fn-svg-to-dataurl module', () => {
     document.body.appendChild(div);
     expect(svg2dataURL('node', document.querySelector('svg') as SVGSVGElement)).toEqual(result);
   });
+  it('should be empty', () => {
+    expect(
+      svg2dataURL('node', (document.querySelector('body') as unknown) as SVGSVGElement)
+    ).toEqual('data:image/svg+xml;base64,');
+  });
 });
