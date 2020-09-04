@@ -1,0 +1,64 @@
+{
+  "folders": [
+    {
+      "name": "✨ @geeeger",
+      "path": "."
+    },
+    {
+      "name": "📦 @geeeger/fn-arr-map-each",
+      "path": "packages\\fn-arr-map-each"
+    },
+    {
+      "name": "📦 @geeeger/fn-curry-it",
+      "path": "packages\\fn-curry-it"
+    },
+    {
+      "name": "📦 @geeeger/fn-dom-add-class",
+      "path": "packages\\fn-dom-add-class"
+    },
+    {
+      "name": "📦 @geeeger/fn-dom-has-class",
+      "path": "packages\\fn-dom-has-class"
+    },
+    {
+      "name": "📦 @geeeger/fn-dom-remove-class",
+      "path": "packages\\fn-dom-remove-class"
+    },
+    {
+      "name": "📦 @geeeger/fn-dom-toggle-class",
+      "path": "packages\\fn-dom-toggle-class"
+    },
+    {
+      "name": "📦 @geeeger/fn-empty-class",
+      "path": "packages\\fn-empty-class"
+    },
+    {
+      "name": "📦 @geeeger/fn-is",
+      "path": "packages\\fn-is"
+    },
+    {
+      "name": "📦 @geeeger/fn-num-range-with",
+      "path": "packages\\fn-num-range-with"
+    },
+    {
+      "name": "📦 @geeeger/fn-str-replace-with",
+      "path": "packages\\fn-str-replace-with"
+    },
+    {
+      "name": "📦 @geeeger/fn-str-substr-with",
+      "path": "packages\\fn-str-substr-with"
+    },
+    {
+      "name": "📦 @geeeger/fn-str-suffix-with",
+      "path": "packages\\fn-str-suffix-with"
+    },
+    {
+      "name": "📦 @geeeger/fn-svg-to-dataurl",
+      "path": "packages\\fn-svg-to-dataurl"
+    }
+  ],
+  "settings": {
+    "json.format.enable": true,
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+  }
+}
