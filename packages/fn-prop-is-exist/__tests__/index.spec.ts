@@ -44,4 +44,30 @@ describe('@geeeger/fn-prop-is-exist module', () => {
 
     expect(propIsExist('0.0.c', undefined)).toBeFalsy();
   });
+
+  it('should be the type', () => {
+    expect(
+      propIsExist(
+        'a',
+        {
+          a: {},
+        },
+        'Object'
+      )
+    ).toBeTruthy();
+
+    expect(
+      propIsExist(
+        'a',
+        {
+          a: {},
+        },
+        'Array'
+      )
+    ).toBeFalsy();
+
+    expect(propIsExist('a', undefined, 'Boolean')).toBeFalsy();
+
+    expect(propIsExist('0', ['String'], 'String')).toBeTruthy();
+  });
 });
