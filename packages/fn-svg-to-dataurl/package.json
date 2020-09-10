@@ -28,9 +28,9 @@
     "prepare": "npm run build"
   },
   "typings": "lib/index.d.ts",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "dependencies": {
-    "@geeeger/fn-curry-it": "^0.0.6",
-    "@geeeger/fn-is": "^0.0.6"
+    "@geeeger/fn-curry-it": "^0.0.7",
+    "@geeeger/fn-is": "^0.0.7"
   }
 }

@@ -28,5 +28,5 @@
     "prepare": "npm run build"
   },
   "typings": "lib/index.d.ts",
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
