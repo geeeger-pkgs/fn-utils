@@ -4,5 +4,5 @@ module.exports = {
   },
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['/node_modules/', '/output/'],
+  testPathIgnorePatterns: ['/node_modules/', '/output/', '/pages/'],
 };

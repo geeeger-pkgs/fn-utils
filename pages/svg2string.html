@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>转换svg</title>
+  <script src='./commonjs.loader.js'></script>
+</head>
+<body>
+  <h3>输入svg</h3>
+  <textarea id="input" cols="30" rows="10"></textarea>
+  <div><button>转换</button></div>
+  <div>输出</div>
+  <textarea id="output" cols="30" rows="10"></textarea>
+  <geeeger-loader list="@geeeger/fn-curry-it,https://cdn.jsdelivr.net/npm/@geeeger/fn-curry-it@latest/lib/index.js;@geeeger/fn-is,https://cdn.jsdelivr.net/npm/@geeeger/fn-is@latest/lib/index.js;@geeeger/fn-svg-to-dataurl,https://cdn.jsdelivr.net/npm/@geeeger/fn-svg-to-dataurl@latest/lib/index.js"></geeeger-loader>
+  <script>
+    require.onloadedEnd = function () {
+      const toDataURL = require('@geeeger/fn-svg-to-dataurl').default;
+      const curry = require('@geeeger/fn-curry-it').default;
+      const button = document.querySelector('button');
+      const input = document.querySelector('#input');
+      const output = document.querySelector('#output');
+      const converter = curry(toDataURL, 'string');
+
+      button.addEventListener('click', function () {
+        output.value = converter(input.value)
+      }, false)
+    }
+  </script>
+</body>
+</html>
