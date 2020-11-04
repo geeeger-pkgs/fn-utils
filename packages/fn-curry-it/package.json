@@ -26,5 +26,5 @@
     "registry": "https://registry.npmjs.org"
   },
   "typings": "lib/index.d.ts",
-  "version": "0.0.9"
+  "version": "0.0.10"
 }
