@@ -21,7 +21,7 @@
   ],
   "license": "ISC",
   "main": "lib/index.js",
-  "name": "fn-num-safe",
+  "name": "@geeeger/fn-num-safe",
   "private": false,
   "scripts": {
     "build": "tsc --pretty",
