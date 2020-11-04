@@ -1,6 +1,6 @@
 {
   "author": "geeeger",
-  "description": "check if is some type",
+  "description": "return the num in the range",
   "homepage": "https://github.com/geeeger-pkgs/fn-utils#readme",
   "bugs": {
     "url": "https://github.com/geeeger-pkgs/fn-utils/issues",
@@ -11,7 +11,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.2"
   },
   "files": [
     "lib"
@@ -21,7 +21,7 @@
   ],
   "license": "ISC",
   "main": "lib/index.js",
-  "name": "@geeeger/fn-is",
+  "name": "fn-num-safe",
   "private": false,
   "scripts": {
     "build": "tsc --pretty",
