@@ -3,7 +3,7 @@
   "private": true,
   "devDependencies": {
     "@types/jest": "27.0.3",
-    "@types/node": "16.11.14",
+    "@types/node": "16.11.17",
     "@typescript-eslint/eslint-plugin": "5.7.0",
     "@typescript-eslint/parser": "5.7.0",
     "eslint": "8.5.0",
