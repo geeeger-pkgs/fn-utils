@@ -2,7 +2,7 @@
   "author": "geeeger",
   "description": "str suffix function with cache",
   "devDependencies": {
-    "typescript": "5.0.4"
+    "typescript": "5.6.3"
   },
   "files": [
     "lib"
